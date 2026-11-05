@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "rider": "Passageiro",
+    "drivers": "Motoristas",
+    "guards": "Guardas",
+    "howItWorks": "Como Funciona",
+    "help": "Ajuda",
+    "joinWaitlist": "Entrar na Lista"
+  },
+  "hero": {
+    "badge": "Mobilidade com Segurança em Primeiro",
+    "title": "Mova-se com",
+    "titleHighlight": "confiança",
+    "subtitle": "Transporte premium com proteção profissional opcional. Motoristas verificados, supervisão em tempo real e discrição em cada quilômetro.",
+    "cta": "Entrar na Lista",
+    "learnMore": "Saiba Mais",
+    "trustIndicator": "Confiança de executivos em todo o mundo",
+    "fortune500": "Fortune 500",
+    "privateEquity": "Private Equity",
+    "familyOffices": "Family Offices"
+  },
+  "howItWorks": {
+    "label": "Como Funciona",
+    "title": "Três passos para viajar com segurança",
+    "subtitle": "Da reserva ao destino, cada detalhe é gerenciado com precisão.",
+    "step1": {
+      "title": "Escolha Seu Veículo",
+      "description": "Selecione de nossa frota de veículos premium verificados. Sedan, SUV ou opções blindadas disponíveis."
+    },
+    "step2": {
+      "title": "Selecione o Nível de Proteção",
+      "description": "Apenas motorista, motorista com profissional de segurança, ou equipe de proteção executiva completa."
+    },
+    "step3": {
+      "title": "Viaje com Supervisão",
+      "description": "Rastreamento em tempo real, suporte SOS e centro de operações 24/7 monitorando sua viagem."
+    }
+  },
+  "pricing": {
+    "label": "Preços",
+    "title": "Escolha seu nível de proteção",
+    "subtitle": "Planos flexíveis que escalam com seus requisitos de segurança.",
+    "mostPopular": "Mais Popular",
+    "tiers": {
+      "free": {
+        "name": "Forti Free",
+        "description": "Transporte seguro essencial",
+        "price": "Pagamento por viagem",
+        "cta": "Baixar Agora",
+        "features": [
+          "Motoristas profissionais verificados",
+          "Rastreamento de viagem em tempo real",
+          "Botão de emergência no app",
+          "Acesso ao suporte 24/7",
+          "Verificação de antecedentes de motoristas"
+        ]
+      },
+      "plus": {
+        "name": "Forti+",
+        "description": "Proteção aprimorada e prioridade",
+        "price": "R$1.499/mês",
+        "cta": "Baixar Agora",
+        "features": [
+          "Tudo no Free",
+          "Atribuição prioritária",
+          "Motoristas treinados em segurança",
+          "Monitoramento de viagem ao vivo",
+          "Gerente de conta dedicado",
+          "Briefings de segurança mensais"
+        ]
+      },
+      "x": {
+        "name": "Forti X",
+        "description": "Segurança de nível executivo",
+        "price": "Personalizado",
+        "cta": "Baixar Agora",
+        "features": [
+          "Tudo no Forti+",
+          "Profissionais de segurança armados",
+          "Planejamento de rota antecipado",
+          "Suporte de contra-vigilância",
+          "Cobertura familiar",
+          "Acesso à frota privada",
+          "Centro de operações 24/7"
+        ]
+      }
+    }
+  },
+  "security": {
+    "label": "Segurança e Confiança",
+    "title": "Construído para quem não pode correr riscos",
+    "subtitle": "Cada camada do Forti é projetada com segurança como base, não como uma reflexão tardia.",
+    "features": {
+      "verified": {
+        "title": "Credenciais Verificadas",
+        "description": "Cada motorista e guarda passa por verificações rigorosas de antecedentes, verificação de credenciais e monitoramento contínuo."
+      },
+      "sos": {
+        "title": "Resposta de Emergência SOS",
+        "description": "Botão de emergência de um toque conecta você instantaneamente ao nosso centro de operações e autoridades locais."
+      },
+      "tracking": {
+        "title": "Rastreamento ao Vivo",
+        "description": "Compartilhe sua localização em tempo real com contatos de confiança. Viagem completa gravada e criptografada."
+      },
+      "admin": {
+        "title": "Supervisão Administrativa",
+        "description": "Clientes empresariais obtêm painel centralizado para monitoramento de viagens da equipe e aplicação de políticas."
+      },
+      "encryption": {
+        "title": "Criptografia de Dados",
+        "description": "Criptografia de ponta a ponta para todas as comunicações. Seus dados nunca são vendidos, nunca são compartilhados."
+      },
+      "insurance": {
+        "title": "Cobertura de Seguro",
+        "description": "Cobertura abrangente para cada viagem. Apólices adicionais disponíveis para clientes de alto valor."
+      }
+    }
+  },
+  "useCases": {
+    "label": "Casos de Uso",
+    "title": "Construído para quem precisa de mais",
+    "subtitle": "Seja viajando a negócios ou protegendo sua família, o Forti se adapta às suas necessidades.",
+    "cases": {
+      "executives": {
+        "title": "Executivos C-Suite",
+        "description": "Transporte terrestre contínuo que reflete sua posição. Discreto, pontual, seguro."
+      },
+      "highProfile": {
+        "title": "Pessoas de Alto Perfil",
+        "description": "Para aqueles cuja visibilidade exige segurança elevada. Viaje sem compromissos."
+      },
+      "families": {
+        "title": "Famílias",
+        "description": "Proteja o que mais importa. Motoristas com antecedentes verificados, rotas seguras, paz de espírito."
+      },
+      "airport": {
+        "title": "Transfers Seguros para Aeroporto",
+        "description": "Da pista ao destino. Coordenado com horários de voo, terminais privados disponíveis."
+      },
+      "night": {
+        "title": "Viagens Noturnas",
+        "description": "Vigilância aprimorada para horas tardias. Motoristas treinados para maior consciência."
+      },
+      "corporate": {
+        "title": "Eventos Corporativos",
+        "description": "Coordenação de frota para conferências, reuniões de diretoria e retiros executivos."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Mobilidade segura para quem valoriza segurança, controle e discrição. Mova-se com confiança.",
+    "product": "Produto",
+    "howItWorks": "Como Funciona",
+    "pricing": "Preços",
+    "security": "Segurança",
+    "enterprise": "Empresas",
+    "company": "Empresa",
+    "about": "Sobre",
+    "careers": "Carreiras",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "copyright": "© 2026 Forti. Todos os direitos reservados.",
+    "safetyNote": "Sua segurança é nosso padrão."
+  },
+  "waitlist": {
+    "backToHome": "Voltar ao início",
+    "title": "Entre na",
+    "titleHighlight": "Lista de Espera",
+    "fullName": "Nome completo",
+    "email": "Endereço de email",
+    "agreement": "Concordo com os",
+    "termsAndConditions": "Termos e Condições",
+    "privacyPolicy": "Política de Privacidade",
+    "marketingConsent": "e consinto em receber comunicações de marketing por SMS e email",
+    "submit": "Entrar na Lista",
+    "joining": "Entrando...",
+    "trustNote": "Suas informações são criptografadas e nunca compartilhadas. Respeitamos sua privacidade.",
+    "successTitle": "Você está na",
+    "successHighlight": "lista",
+    "successMessage": "Obrigado pelo seu interesse no Forti. Entraremos em contato em breve com detalhes de acesso exclusivo.",
+    "returnHome": "Voltar ao Início",
+    "errors": {
+      "agreementRequired": "Acordo Necessário",
+      "agreementDescription": "Você deve concordar com os termos e preferências de marketing para continuar.",
+      "pleaseAcceptTerms": "Por favor, aceite os termos e condições para continuar.",
+      "alreadyRegistered": "Já Registrado",
+      "alreadyRegisteredDescription": "Este email já está em nossa lista de espera.",
+      "error": "Erro",
+      "errorDescription": "Algo deu errado. Por favor, tente novamente."
+    }
+  },
+  "support": {
+    "title": "Suporte Forti",
+    "welcome": "Bem-vindo ao Suporte Forti",
+    "welcomeMessage": "Bem-vindo ao Suporte Forti. Como posso ajudá-lo hoje?",
+    "welcomeSubtitle": "Por favor, forneça seus dados para começar a conversar com nossa equipe de suporte.",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "email": "Endereço de Email",
+    "phone": "Número de Telefone",
+    "startChat": "Iniciar Chat",
+    "starting": "Iniciando...",
+    "typeMessage": "Digite sua mensagem...",
+    "viewHistory": "Ver Histórico",
+    "logout": "Sair",
+    "back": "Voltar",
+    "closedTickets": "Tickets Fechados",
+    "noClosedTickets": "Nenhum ticket fechado encontrado.",
+    "ticketClosed": "Este ticket está fechado. Você não pode responder.",
+    "areYouStillHere": "Você ainda está aí comigo?",
+    "closedDueToInactivity": "Este ticket foi fechado por inatividade. Se precisar de mais ajuda, entre em contato com support@rideforti.com",
+    "errors": {
+      "requiredFields": "Campos Obrigatórios",
+      "requiredFieldsDescription": "Por favor, preencha todos os campos para começar a conversar.",
+      "invalidPhone": "Telefone Inválido",
+      "invalidPhoneDescription": "Por favor, insira um número de telefone válido de 10 dígitos.",
+      "error": "Erro",
+      "failedToStartChat": "Falha ao iniciar chat. Por favor, tente novamente.",
+      "failedToSend": "Falha ao enviar mensagem"
+    }
+  }
+}

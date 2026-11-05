@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "rider": "Rider",
+    "drivers": "Drivers",
+    "guards": "Guards",
+    "howItWorks": "How It Works",
+    "help": "Help",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "hero": {
+    "badge": "Security-First Mobility",
+    "title": "Move with",
+    "titleHighlight": "confidence",
+    "subtitle": "Premium transportation with optional professional protection. Verified drivers, real-time oversight, and discretion at every mile.",
+    "cta": "Join Waitlist",
+    "learnMore": "Learn More",
+    "trustIndicator": "Trusted by executives worldwide",
+    "fortune500": "Fortune 500",
+    "privateEquity": "Private Equity",
+    "familyOffices": "Family Offices"
+  },
+  "howItWorks": {
+    "label": "How It Works",
+    "title": "How it Works",
+    "subtitle": "From booking to destination, every mile is secured with precision.",
+    "step1": {
+      "title": "Choose Your Vehicle",
+      "description": "Select from our fleet of premium, vetted vehicles. Sedan, SUV, or armored options available."
+    },
+    "step2": {
+      "title": "Select Protection Level",
+      "description": "Driver only, driver with security professional, or full executive protection detail."
+    },
+    "step3": {
+      "title": "Ride with Oversight",
+      "description": "Real-time tracking, SOS support, and 24/7 operations center monitoring your journey."
+    }
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Choose your level of protection",
+    "subtitle": "Flexible plans that scale with your security requirements.",
+    "mostPopular": "Most Popular",
+    "tiers": {
+      "free": {
+        "name": "Forti Black",
+        "description": "Essential secure transportation",
+        "price": "Pay per ride",
+        "cta": "Download Now",
+        "features": [
+          "Verified professional drivers",
+          "Real-time ride tracking",
+          "In-app emergency button",
+          "24/7 support access",
+          "Driver background checks",
+          "Armed Driver",
+          "Armed Guards"
+        ]
+      },
+      "plus": {
+        "name": "Forti Black+",
+        "description": "Enhanced protection and priority",
+        "price": "$9.97/mo",
+        "cta": "Download Now",
+        "features": [
+          "Everything in Free",
+          "Priority matching",
+          "Security-trained drivers",
+          "Access to higher luxury vehicles",
+          "Armored Vehicles"
+        ]
+      },
+      "x": {
+        "name": "Forti Black X",
+        "description": "Executive-level security",
+        "price": "$19.97/mo",
+        "cta": "Download Now",
+        "features": [
+          "Everything in Forti+ & Forti Free",
+          "Access to multiple armed security professionals",
+          "Advance route planning",
+          "Access to multiple armed drivers",
+          "Maximum Discounts",
+          "Specific Vehicle Selection"
+        ]
+      }
+    }
+  },
+  "security": {
+    "label": "Security & Trust",
+    "title": "Built for those who can't afford risk",
+    "subtitle": "Every layer of Forti is designed with security as the foundation, not an afterthought.",
+    "features": {
+      "verified": {
+        "title": "Verified Credentials",
+        "description": "Every driver and guard undergoes rigorous background checks, credential verification, and continuous monitoring."
+      },
+      "sos": {
+        "title": "SOS Emergency Response",
+        "description": "One-touch emergency button connects you instantly to our operations center and local authorities."
+      },
+      "tracking": {
+        "title": "Live Ride Tracking",
+        "description": "Share your location in real-time with trusted contacts. Full journey recorded and encrypted."
+      },
+      "admin": {
+        "title": "Admin Oversight",
+        "description": "Enterprise clients get centralized dashboard for team travel monitoring and policy enforcement."
+      },
+      "encryption": {
+        "title": "Data Encryption",
+        "description": "End-to-end encryption for all communications. Your data never sold, never shared."
+      },
+      "insurance": {
+        "title": "Insurance Coverage",
+        "description": "Comprehensive coverage for every ride. Additional policies available for high-value clients."
+      }
+    }
+  },
+  "useCases": {
+    "label": "Use Cases",
+    "title": "Built for those who need more",
+    "subtitle": "Whether you're traveling for business or protecting your family, Forti adapts to your needs.",
+    "cases": {
+      "executives": {
+        "title": "C-Suite Executives",
+        "description": "Seamless ground transportation that reflects your position. Discreet, punctual, secure."
+      },
+      "highProfile": {
+        "title": "High-Profile Individuals",
+        "description": "For those whose visibility demands heightened security. Travel without compromise."
+      },
+      "families": {
+        "title": "Families",
+        "description": "Protect what matters most. Background-checked drivers, safe routes, peace of mind."
+      },
+      "airport": {
+        "title": "Secure Airport Transfers",
+        "description": "From tarmac to destination. Coordinated with flight schedules, private terminals available."
+      },
+      "night": {
+        "title": "Night Travel",
+        "description": "Enhanced vigilance for late hours. Drivers trained for heightened awareness."
+      },
+      "corporate": {
+        "title": "Corporate Events",
+        "description": "Fleet coordination for conferences, board meetings, and executive retreats."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Secure mobility for those who value safety, control, and discretion. Move with confidence.",
+    "product": "Product",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "security": "Security",
+    "enterprise": "Enterprise",
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "support": "Support",
+    "copyright": "© 2026 Forti. All rights reserved.",
+    "safetyNote": "Your safety is our standard."
+  },
+  "waitlist": {
+    "backToHome": "Back to home",
+    "title": "Join the",
+    "titleHighlight": "Waitlist",
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "email": "Email address",
+    "consentTransactional": "By checking, you are allowing to receive transactional/informational SMS communications regarding account notifications, customer care, etc, from Forti. Messages frequency may vary. Data rates may apply, reply STOP to opt-out.",
+    "consentMarketing": "By checking, you are allowing to receive promotional/marketing SMS communications from Forti. Frequency may vary. Data rates may apply, reply HELP for help or STOP to opt-out.",
+    "consentTerms": "By checking, I accept the",
+    "termsAndConditions": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "submit": "Join Waitlist",
+    "joining": "Joining...",
+    "trustNote": "Your information is encrypted and never shared. We respect your privacy.",
+    "successTitle": "You're on the",
+    "successHighlight": "list",
+    "successMessage": "Thank you for your interest in Forti. We'll be in touch soon with exclusive access details.",
+    "returnHome": "Return to Home",
+    "errors": {
+      "agreementRequired": "Agreement Required",
+      "agreementDescription": "You must accept the Terms of Service and Privacy Policy to continue.",
+      "pleaseAcceptTerms": "Please accept the Terms of Service and Privacy Policy to continue.",
+      "alreadyRegistered": "Already Registered",
+      "alreadyRegisteredDescription": "This email is already on our waitlist.",
+      "error": "Error",
+      "errorDescription": "Something went wrong. Please try again."
+    }
+  },
+  "support": {
+    "title": "Forti Support",
+    "welcome": "Welcome to Forti Support",
+    "welcomeMessage": "Welcome to Forti Support. How can I assist you today?",
+    "welcomeSubtitle": "Please provide your details to start chatting with our support team.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "startChat": "Start Chatting",
+    "starting": "Starting...",
+    "typeMessage": "Type your message...",
+    "viewHistory": "View History",
+    "logout": "Logout",
+    "back": "Back",
+    "closedTickets": "Closed Tickets",
+    "noClosedTickets": "No closed tickets found.",
+    "ticketClosed": "This ticket is closed. You cannot reply.",
+    "areYouStillHere": "Are you still here with me?",
+    "closedDueToInactivity": "This ticket has been closed due to inactivity. If you need further assistance, please reach out to support@rideforti.com",
+    "errors": {
+      "requiredFields": "Required Fields",
+      "requiredFieldsDescription": "Please fill in all fields to start chatting.",
+      "invalidPhone": "Invalid Phone",
+      "invalidPhoneDescription": "Please enter a valid 10-digit US phone number.",
+      "error": "Error",
+      "failedToStartChat": "Failed to start chat. Please try again.",
+      "failedToSend": "Failed to send message"
+    }
+  }
+}

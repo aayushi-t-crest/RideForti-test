@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Forti Design System - Premium Security Mobility */
+
+@layer base {
+  :root {
+    /* Core palette - Dark, premium, executive */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Muted champagne gold - Premium accent */
+    --primary: 40 30% 55%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 85%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 100%;
+
+    --radius: 0.5rem;
+
+    /* Custom Forti tokens */
+    --forti-gold: 40 30% 55%;
+    --forti-gold-muted: 40 20% 40%;
+    --forti-charcoal: 0 0% 7%;
+    --forti-obsidian: 0 0% 4%;
+    --forti-steel: 210 10% 25%;
+    --forti-text-primary: 0 0% 98%;
+    --forti-text-secondary: 0 0% 65%;
+    --forti-text-muted: 0 0% 45%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 6%) 0%, hsl(0 0% 4%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 10%) 0%, hsl(0 0% 6%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(40 30% 55%) 0%, hsl(35 25% 45%) 100%);
+    
+    /* Shadows */
+    --shadow-subtle: 0 4px 24px -4px hsla(0, 0%, 0%, 0.4);
+    --shadow-elevated: 0 8px 40px -8px hsla(0, 0%, 0%, 0.6);
+    --shadow-gold: 0 4px 24px -4px hsla(40, 30%, 55%, 0.2);
+
+    --sidebar-background: 0 0% 7%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 40 30% 55%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .forti-container {
+    @apply max-w-7xl mx-auto px-6 lg:px-8;
+  }
+
+  .forti-section {
+    @apply py-12 md:py-20 lg:py-32;
+  }
+
+  .forti-heading-xl {
+    @apply text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.1];
+  }
+
+  .forti-heading-lg {
+    @apply text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight leading-tight;
+  }
+
+  .forti-heading-md {
+    @apply text-xl md:text-2xl font-medium tracking-tight;
+  }
+
+  .forti-text-body {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+
+  .forti-text-subtle {
+    @apply text-sm md:text-base text-muted-foreground leading-relaxed;
+  }
+
+  .forti-card {
+    @apply rounded-xl border border-border bg-card p-6 md:p-8;
+    background: var(--gradient-card);
+  }
+
+  .forti-divider {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-border to-transparent;
+  }
+
+  .forti-gold-text {
+    @apply text-transparent bg-clip-text;
+    background-image: var(--gradient-gold);
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .metallic-shimmer {
+    background: linear-gradient(
+      90deg,
+      #6b7280 0%,
+      #9ca3af 15%,
+      #d1d5db 30%,
+      #f3f4f6 50%,
+      #d1d5db 70%,
+      #9ca3af 85%,
+      #6b7280 100%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 3s linear infinite;
+  }
+
+  .metallic-shimmer-bg {
+    background: linear-gradient(
+      90deg,
+      #6b7280 0%,
+      #9ca3af 15%,
+      #d1d5db 30%,
+      #f3f4f6 50%,
+      #d1d5db 70%,
+      #9ca3af 85%,
+      #6b7280 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+  }
+
+  /* Button shimmer effect - triggered on hover/active */
+  .btn-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-shimmer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0) 10%,
+      rgba(255, 255, 255, 0.4) 45%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0.4) 55%,
+      rgba(255, 255, 255, 0) 90%,
+      transparent 100%
+    );
+    transition: none;
+    pointer-events: none;
+  }
+
+  .btn-shimmer:hover::before,
+  .btn-shimmer:active::before {
+    animation: btnShimmer 0.6s ease-out forwards;
+  }
+
+  /* Shimmer that plays once on tap then stays */
+  .btn-shimmer-tap::before {
+    animation: btnShimmer 0.5s ease-out forwards;
+  }
+
+  @keyframes btnShimmer {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes pulseRing {
+    0%, 100% {
+      box-shadow: 0 0 0 9999px hsl(var(--background) / 0.85), 0 0 0 2px hsl(0 0% 100%), 0 0 30px 4px hsl(0 0% 100% / 0.5);
+    }
+    50% {
+      box-shadow: 0 0 0 9999px hsl(var(--background) / 0.85), 0 0 0 3px hsl(0 0% 100%), 0 0 50px 8px hsl(0 0% 100% / 0.7);
+    }
+  }
+  .animate-pulse-ring {
+    animation: pulseRing 2s ease-in-out infinite;
+  }
+
+  /* Floating orb animations for hero backgrounds */
+  @keyframes float1 {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+    }
+    25% {
+      transform: translate(50px, -30px) scale(1.05);
+    }
+    50% {
+      transform: translate(20px, 40px) scale(0.95);
+    }
+    75% {
+      transform: translate(-30px, 20px) scale(1.02);
+    }
+  }
+
+  @keyframes float2 {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(-40px, 50px) scale(1.08);
+    }
+    66% {
+      transform: translate(30px, -20px) scale(0.92);
+    }
+  }
+
+  @keyframes float3 {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(-60px, -40px) scale(1.1);
+    }
+  }
+
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+}
+
+/* Leaflet map overrides */
+.leaflet-container {
+  background: hsl(var(--background));
+  font-family: inherit;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: var(--shadow-subtle) !important;
+}
+
+.leaflet-control-zoom a {
+  background: hsl(var(--secondary)) !important;
+  color: hsl(var(--foreground)) !important;
+  border: 1px solid hsl(var(--border)) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: hsl(var(--muted)) !important;
+}
+
+.leaflet-control-attribution {
+  background: hsl(var(--secondary) / 0.8) !important;
+  color: hsl(var(--muted-foreground)) !important;
+  font-size: 10px;
+}
+
+.leaflet-control-attribution a {
+  color: hsl(var(--forti-gold)) !important;
+}
+
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Marquee animation for smooth scrolling carousels */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Horizontal marquee animation (slower) */
+.animate-marquee-horizontal {
+  animation: marquee 50s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-horizontal:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee-horizontal {
+    animation: none;
+    transform: none;
+  }
+}
+
+/* Vertical marquee animation */
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical 40s linear infinite;
+}
+
+.animate-marquee-vertical:hover {
+  animation-play-state: paused;
+}
+
+/* Gallery vertical scroll animations */
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-33.333%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-33.333%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-scroll-up {
+  animation: scroll-up 30s linear infinite;
+}
+
+.animate-scroll-down {
+  animation: scroll-down 30s linear infinite;
+}
+
+.animate-scroll-up:hover,
+.animate-scroll-down:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-scroll-up,
+  .animate-scroll-down {
+    animation: none;
+  }
+}

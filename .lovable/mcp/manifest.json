@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "sdk_version": "0.25.1",
+  "path": "/functions/v1/mcp",
+  "auth": {
+    "type": "oauth",
+    "issuer": "https://ezatconmqkxeypaodyoj.supabase.co/auth/v1",
+    "accepted_audiences": [
+      "authenticated"
+    ]
+  },
+  "mcp": {
+    "server": {
+      "name": "forti-mcp",
+      "version": "0.1.0",
+      "title": "Forti"
+    },
+    "tools": [
+      {
+        "name": "list_support_tickets",
+        "title": "List support tickets",
+        "description": "List recent Forti support tickets visible to the signed-in user (RLS applies). Optionally filter by status or limit.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "open",
+                "in_progress",
+                "resolved",
+                "closed"
+              ],
+              "description": "Filter by ticket status."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Max tickets to return (default 25)."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_open_tasks",
+        "title": "List open tasks",
+        "description": "List open (not done) Forti tasks visible to the signed-in user. Optionally filter by department.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "description": "Filter by department (e.g. support, sales, ops, marketing, development, admin)."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "description": "Max tasks to return (default 50)."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_upcoming_events",
+        "title": "List upcoming events",
+        "description": "List Forti department events in the next N days (default 7).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "days": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 60,
+              "description": "Look-ahead window in days (default 7)."
+            },
+            "department": {
+              "type": "string",
+              "description": "Filter by department."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_waitlist_count",
+        "title": "Get waitlist count",
+        "description": "Return the total number of Forti waitlist signups (admin-only via RLS).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}

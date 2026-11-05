@@ -1,0 +1,37 @@
+project_id = "labmrcabiongzugvwghs"
+
+[functions.admin-api]
+verify_jwt = false
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.send-2fa]
+verify_jwt = false
+
+[functions.calendar-share]
+verify_jwt = false
+
+[functions.calendar-feed]
+verify_jwt = false
+
+[functions.contract-sign]
+verify_jwt = false
+
+[functions.academy-auth]
+verify_jwt = false
+
+[functions.academy-quiz]
+verify_jwt = false
+
+[functions.academy-content]
+verify_jwt = false
+
+[functions.academy-recert]
+verify_jwt = false
+
+[functions.support-kb]
+verify_jwt = false
+
+[functions.track-download]
+verify_jwt = false
